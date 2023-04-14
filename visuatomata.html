@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+    #myCanvas {
+        border: 1px solid black;
+        position: relative;
+    }
+
+    #labelBox {
+        border: none;
+        outline: 1;
+        position: absolute;
+        display: none;
+        background-color: transparent;
+        font-size: 20px;
+        font-family: "Times New Roman";
+        width: 1px;
+    }
+
+</style>
+
+<canvas id="canvas" width="900" height="650" style="border:1px solid #000000;"></canvas>
+<input id="labelBox" type="text"/>
+
+<div>
+    <button class="sample1_btn">Sample 1</button>
+    <button class="sample2_btn">Sample 2</button>
+    <button class="sample3_btn">Sample 3</button>
+    <button class="sample4_btn">Sample 4</button>
+    <button class="test_btn">test</button>
+</div>
+
+<div>
+    <input id="wordInputBox" type="text" size=24/>
+    <button class="run_animation_btn">Run Animation</button>
+</div>
+
+<script src="visuatomata_app.js"></script>
+</body>
+
+</html>

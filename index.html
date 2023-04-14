@@ -1,30 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Minimalistic Website</title>
+</head>
 <body>
-<style>
-    canvas {
-        border: 1px solid black;
-        position: relative;
-    }
-    #tokenBox {
-        border: none;
-        outline: 0;
-        position: absolute;
-        display: none;
-    }
-</style>
-
-<canvas id="myCanvas" width="1540" height="260" style="border:1px solid #000000;"></canvas>
-<input id="tokenBox" type="text" style='font-size: 25px;font-family: "Times New Roman"; width: 50px;'/>
-
-<div>
-    <button class="reset_btn">Reset</button>
-    <button class="test_btn">Test Button</button>
-</div>
-
-<div id="iframeContainer"></div>
-
-<script>var exports = {};</script>
-<script type="module" src="app.js"></script>
+  <div class="container">
+    <h1>My Projects</h1>
+    <div class="project">
+      <a href="visuatomata.html" target="_blank">VisuAutomata FSM Tool</a>
+    </div>
+    <div class="project">
+      <a href="basket.html" target="_blank">Basket thing</a>
+    </div>
+  </div>
 </body>
 </html>
